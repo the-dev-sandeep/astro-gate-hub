@@ -53,7 +53,7 @@ export const Route = createFileRoute("/admin")({
       },
     ],
   }),
-  component: AdminPage;
+  component: AdminPage,
 });
 
 type Analytics = Awaited<ReturnType<typeof getAdminAnalytics>>;
