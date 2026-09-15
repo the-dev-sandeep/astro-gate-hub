@@ -9,7 +9,7 @@ export function NeonField({
   error,
   className,
   ...props
-}: InputHTMLAttributes<HTMLInputElement> & { label: string; error?: string }) {
+}: InputHTMLAttributes<HTMLInputElement> & { label: string; error?: string | undefined }) {
   const id = useId();
   const [focused, setFocused] = useState(false);
   const filled = String(props.value ?? "").length > 0;
