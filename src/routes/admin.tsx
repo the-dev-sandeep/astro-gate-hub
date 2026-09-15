@@ -298,8 +298,11 @@ function AdminPage() {
                       data={donut}
                       dataKey="value"
                       nameKey="name"
-                      innerRadius={60}
-                      outerRadius={92}
+                      cx="50%"
+                      cy="50%"
+                      innerRadius="58%"
+                      outerRadius="88%"
+                      isAnimationActive={false}
                       paddingAngle={3}
                       stroke="none"
                     >
